@@ -1,0 +1,296 @@
+
+/*=====================================
+        Basic Properties starts
+======================================*/
+body {
+  height: 700px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=====================================
+        Basic Properties ENDS
+======================================*/
+
+/*Navigation*/
+
+.navbar {
+  padding: 22px 0;
+  border-bottom: none !important;
+}
+
+.navbar ul li a {
+  color: #515151 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 13px;
+  transition: all .5s ease-in;
+}
+.navbar ul li a:hover {
+  color: #b90404 !important;
+}
+
+.navbar-toggle {
+  border: 1px solid #515151 !important;
+  transition: all .5s ease-in;
+}
+.navbar-toggle:hover {
+  background-color: #b60404 !important;
+}
+
+.navbar-inverse .navbar-collapse {
+  border-color: transparent !important;
+}
+
+.location {
+  border: 1px solid #515151;
+  border-radius: 50px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  align-items: center;
+  padding-top: -1200px;
+}
+
+/*Navigation ENDS*/
+
+/*HOME*/
+
+.slider {
+  width: 100%;
+  height: 710px;
+  background-image: url(..//img/Crossfit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.65);
+  position: relative;
+
+}
+
+.slider-content{
+  position: absolute;
+  top: 39%;
+  width: 100%;
+}
+
+.icons .fa {
+  font-size: 45px;
+  color: #a9a9a9;
+  margin-right: 10px;
+}
+
+.cta-div {
+  margin-top: 30px;
+
+}
+
+.btn1 {
+  padding: 13px 18px;
+  background-color: transparent;
+  color: #A9A9A9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid #a9a9a9;
+  border-top-left-radius: 15px;
+  transition: all .5s ease-in;
+  margin-right: -6px;
+}
+
+.btn1:hover {
+  text-decoration: none;
+  color: #A9A9A9;
+  background-color: #b90404;
+  border-color: #b90404
+}
+
+.btn2 {
+  padding: 13px 18px;
+  background-color: transparent;
+  color: #A9A9A9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid #a9a9a9;
+  border-bottom-right-radius: 15px;
+  transition: all .5s ease-in;
+  margin-right: 10px;
+}
+
+.btn2:hover {
+  text-decoration: none;
+  color: #A9A9A9;
+  background-color: #b90404;
+  border-color: #b90404
+}
+
+.social-networks a.fa {
+  border: 1px solid #a9a9a9;
+  padding: 10px;
+  color: #A9A9A9;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  margin-right: 10px;
+  transition: all .5s ease-in;
+}
+
+.social-networks a.fa:hover {
+  text-decoration: none;
+  background-color: #b90404;
+  color: #A9a9a9;
+  border: 1px solid #b90404;
+}
+
+.navbar-inverse {
+  background-color: transparent !important;
+}
+
+.text h2 {
+  color: #b90404;
+  text-align: center;
+  font-size: 50px;
+}
+
+.text h1 {
+  color: #A9A9A9;
+  text-align: center;
+}
+
+
+/************* MAP AREA ***************/
+
+.maps {
+  margin-top: 10px;
+}
+
+
+.contact-area
+{
+    margin-top: 0px;
+}
+
+
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px solid #a9a9a9 !important;
+
+}
+
+/*
+.contact-form button.btn
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+*/
+.border-bottom-now
+{
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 0 0;
+}
+
+.contact-infos
+{
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: -30px;
+    background: #A9a9a9;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+
+}
+
+.contact-infos .fa
+{
+    color: #b90404;
+    font-size: 26px;
+    border: 1px solid #b90404;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+
+}
+
+.contact-infos p
+{
+    color: #b90404;
+    margin-top: 0px;
+
+}
+/************** FOOTER ****************/
+
+.footer
+{
+    background: url(..//img/Black-Wood-Footer-Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.social-icon a
+{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+
+}
+
+
+.footer .fa
+{
+    font-size: 30px;
+    color: #b90404;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 10px solid #a9a9a9;
+    text-align: center;
+    transition: all 0.7s ease-in;
+
+
+}
+
+.social-icon a:hover .fa
+{
+
+    border: 10px solid white;
+    transform: rotate(360deg);
+
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
